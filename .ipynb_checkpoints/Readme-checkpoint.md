@@ -60,7 +60,7 @@ on our common Trello board. The repository must include all the files you used t
 * Fork and clone this repository
 * Edit it with your files, links, the Readme and a relevant *.gitignore* file condensed in a proper structure
 * Add, commit and push all your files
-* Add the link of the repository on our [Trello board](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game) on your project1 card
+* Add the link of the repository on our [Trello board](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game) on your project1 card to submit the project
 
 
 The **deadline** to turn in the deliverables is right before the project presentations.
