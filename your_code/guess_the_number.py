@@ -26,10 +26,10 @@ while game_over:
     else:
         print("Invalid input! Try again! \nPlease type E, M or H to select the level.")
 
-print(x)
+# print(x)
 secrect_number = random.randint(1, x)
 
-print(secrect_number)
+# print(secrect_number)
 
 guess = None
 count = 1
@@ -38,7 +38,7 @@ count = 1
 
 while guess != secrect_number:
     guess = input("Please type a number between 1 and " + str(x) + ": ")
-    print(guess)
+    # print(guess)
     # print(type(guess))
     if guess.isdigit():
         guess = int(guess)
