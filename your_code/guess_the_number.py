@@ -8,11 +8,11 @@ medium = level[1]
 hard = level[2]
 
 game_over = True
+name = input("Please type your name: ")
 
 while game_over:
-    name = input("Please type your name: ")
     num = input(
-        "Let's play! \nChoose the level of the game. \nType E for easy; M for medium; or H for hard): ")
+        "Choose the level of the game. \nType E for easy; M for medium; or H for hard): ")
     if num == "E" or num == "M" or num == "H":
         print("Let's play!")
         game_over = False
@@ -24,7 +24,7 @@ while game_over:
             elif num == "H":
                 x = hard
     else:
-        print("Invalid input! Try again! \nPlease type E, M or H to select the level.")
+        print("Invalid input! Try again! \nPlease type E for easy; M for medium; or H for hard when choosing the level of the game.")
 
 # print(x)
 secrect_number = random.randint(1, x)
@@ -60,6 +60,7 @@ while guess != secrect_number:
         print("YOUR LAST CHANCE!")
     elif count > 5:
         print("Sorry, you failed!")
+        print("The secret number is: ", str(secrect_number))
         break
 
 
