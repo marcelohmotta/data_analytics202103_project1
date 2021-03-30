@@ -65,12 +65,7 @@ while guess != secrect_number:
 
 
 def final_score(count):
-    if count == 1:
-        return 100
-    if count > 1 and count <= 5:
-        return 100 - (20 * int(count))
-    if count > 5:
-        return 0
+    return 100 - (20 * (count - 1))
 
 
 score = final_score(count)
